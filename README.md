@@ -1,6 +1,6 @@
-# Epok
-[![Build Status](https://travis-ci.org/jmcclanahan/Epok.svg?branch=master)](https://travis-ci.org/jmcclanahan/Epok)
-[![Coverage Status](https://coveralls.io/repos/github/jmcclanahan/Epok/badge.svg?branch=master)](https://coveralls.io/github/jmcclanahan/Epok?branch=master)
+# epok
+[![Build Status](https://travis-ci.org/jmcclanahan/Epok.svg?branch=master)](https://travis-ci.org/jmcclanahan/epok)
+[![Coverage Status](https://coveralls.io/repos/github/jmcclanahan/Epok/badge.svg?branch=master)](https://coveralls.io/github/jmcclanahan/epok?branch=master)
 * Epok extends Date() functionality with easy to use functions and Chai-like syntax
 * No external dependencies
 * Since this is just a wrapper around Date(), all leap year calculations are taken care of for you
