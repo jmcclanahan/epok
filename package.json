@@ -1,0 +1,34 @@
+{
+  "name": "epok",
+  "version": "1.0.6",
+  "description": "A simple Javascript Date() extension for easier manipulation of dates",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmcclanahan/epok"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --recursive",
+    "test-cov": "istanbul cover node_modules/.bin/_mocha -- --compilers js:babel-register",
+    "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- --compilers js:babel-register -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
+    "build": "babel src -d dist"
+  },
+  "keywords": [],
+  "author": "Jake McClanahan",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.9",
+    "istanbul": "1.0.0-alpha.2",
+    "mocha": "^2.5.3",
+    "mocha-lcov-reporter": "^1.2.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
